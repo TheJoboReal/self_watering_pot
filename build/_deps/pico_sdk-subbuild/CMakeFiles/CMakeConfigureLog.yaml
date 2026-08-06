@@ -1,0 +1,146 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/wrappers/bin/uname"
+      - "/home/kasper/.nix-profile/bin/uname"
+      - "/nix/profile/bin/uname"
+      - "/home/kasper/.local/state/nix/profile/bin/uname"
+      - "/etc/profiles/per-user/kasper/bin/uname"
+      - "/nix/var/nix/profiles/default/bin/uname"
+    found: "/run/current-system/sw/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 7.0.3 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/wrappers/bin/gmake"
+      - "/home/kasper/.nix-profile/bin/gmake"
+      - "/nix/profile/bin/gmake"
+      - "/home/kasper/.local/state/nix/profile/bin/gmake"
+      - "/etc/profiles/per-user/kasper/bin/gmake"
+      - "/nix/var/nix/profiles/default/bin/gmake"
+      - "/run/current-system/sw/bin/gmake"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gmake"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gmake"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gmake"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gmake"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gmake"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gmake"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gmake"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gmake"
+      - "/run/wrappers/bin/make"
+      - "/home/kasper/.nix-profile/bin/make"
+      - "/nix/profile/bin/make"
+      - "/home/kasper/.local/state/nix/profile/bin/make"
+      - "/etc/profiles/per-user/kasper/bin/make"
+      - "/nix/var/nix/profiles/default/bin/make"
+    found: "/run/current-system/sw/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+...

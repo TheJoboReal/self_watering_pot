@@ -1,0 +1,2162 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/wrappers/bin/uname"
+      - "/home/kasper/.nix-profile/bin/uname"
+      - "/nix/profile/bin/uname"
+      - "/home/kasper/.local/state/nix/profile/bin/uname"
+      - "/etc/profiles/per-user/kasper/bin/uname"
+      - "/nix/var/nix/profiles/default/bin/uname"
+    found: "/run/current-system/sw/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:130 (project)"
+    message: |
+      The system is: Linux - 7.0.3 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/wrappers/bin/cc"
+      - "/home/kasper/.nix-profile/bin/cc"
+      - "/nix/profile/bin/cc"
+      - "/home/kasper/.local/state/nix/profile/bin/cc"
+      - "/etc/profiles/per-user/kasper/bin/cc"
+      - "/nix/var/nix/profiles/default/bin/cc"
+    found: "/run/current-system/sw/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/"
+    found: "/run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:130 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /run/current-system/sw/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/4.1.2/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    found: "/run/current-system/sw/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    found: "/run/current-system/sw/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    found: "/run/current-system/sw/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    found: "/run/current-system/sw/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    found: "/run/current-system/sw/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    found: "/run/current-system/sw/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    found: "/run/current-system/sw/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    found: "/run/current-system/sw/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/current-system/sw/bin/dlltool"
+      - "/run/wrappers/bin/dlltool"
+      - "/home/kasper/.nix-profile/bin/dlltool"
+      - "/nix/profile/bin/dlltool"
+      - "/home/kasper/.local/state/nix/profile/bin/dlltool"
+      - "/etc/profiles/per-user/kasper/bin/dlltool"
+      - "/nix/var/nix/profiles/default/bin/dlltool"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/dlltool"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/dlltool"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/dlltool"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/dlltool"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/dlltool"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/dlltool"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/dlltool"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    found: "/run/current-system/sw/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/current-system/sw/bin/tapi"
+      - "/run/wrappers/bin/tapi"
+      - "/home/kasper/.nix-profile/bin/tapi"
+      - "/nix/profile/bin/tapi"
+      - "/home/kasper/.local/state/nix/profile/bin/tapi"
+      - "/etc/profiles/per-user/kasper/bin/tapi"
+      - "/nix/var/nix/profiles/default/bin/tapi"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/tapi"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/tapi"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/tapi"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/tapi"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/tapi"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/tapi"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/tapi"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/current-system/sw/bin/gcc-ar-15.2"
+      - "/run/wrappers/bin/gcc-ar-15.2"
+      - "/home/kasper/.nix-profile/bin/gcc-ar-15.2"
+      - "/nix/profile/bin/gcc-ar-15.2"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar-15.2"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar-15.2"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-15.2"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar-15.2"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar-15.2"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar-15.2"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar-15.2"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar-15.2"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar-15.2"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar-15.2"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar-15.2"
+      - "/run/current-system/sw/bin/gcc-ar-15"
+      - "/run/wrappers/bin/gcc-ar-15"
+      - "/home/kasper/.nix-profile/bin/gcc-ar-15"
+      - "/nix/profile/bin/gcc-ar-15"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar-15"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar-15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-15"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar-15"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar-15"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar-15"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar-15"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar-15"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar-15"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar-15"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar-15"
+      - "/run/current-system/sw/bin/gcc-ar15"
+      - "/run/wrappers/bin/gcc-ar15"
+      - "/home/kasper/.nix-profile/bin/gcc-ar15"
+      - "/nix/profile/bin/gcc-ar15"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar15"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar15"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar15"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar15"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar15"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar15"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar15"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar15"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar15"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar15"
+      - "/run/current-system/sw/bin/gcc-ar"
+      - "/run/wrappers/bin/gcc-ar"
+      - "/home/kasper/.nix-profile/bin/gcc-ar"
+      - "/nix/profile/bin/gcc-ar"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/current-system/sw/bin/gcc-ranlib-15.2"
+      - "/run/wrappers/bin/gcc-ranlib-15.2"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib-15.2"
+      - "/nix/profile/bin/gcc-ranlib-15.2"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib-15.2"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib-15.2"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-15.2"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib-15.2"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib-15.2"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib-15.2"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib-15.2"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib-15.2"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib-15.2"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib-15.2"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib-15.2"
+      - "/run/current-system/sw/bin/gcc-ranlib-15"
+      - "/run/wrappers/bin/gcc-ranlib-15"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib-15"
+      - "/nix/profile/bin/gcc-ranlib-15"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib-15"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib-15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-15"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib-15"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib-15"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib-15"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib-15"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib-15"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib-15"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib-15"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib-15"
+      - "/run/current-system/sw/bin/gcc-ranlib15"
+      - "/run/wrappers/bin/gcc-ranlib15"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib15"
+      - "/nix/profile/bin/gcc-ranlib15"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib15"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib15"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib15"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib15"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib15"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib15"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib15"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib15"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib15"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib15"
+      - "/run/current-system/sw/bin/gcc-ranlib"
+      - "/run/wrappers/bin/gcc-ranlib"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib"
+      - "/nix/profile/bin/gcc-ranlib"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+    found: "/run/current-system/sw/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/"
+    found: "/run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:130 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /run/current-system/sw/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/current-system/sw/bin/gcc-ar-15.2"
+      - "/run/wrappers/bin/gcc-ar-15.2"
+      - "/home/kasper/.nix-profile/bin/gcc-ar-15.2"
+      - "/nix/profile/bin/gcc-ar-15.2"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar-15.2"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar-15.2"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-15.2"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar-15.2"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar-15.2"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar-15.2"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar-15.2"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar-15.2"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar-15.2"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar-15.2"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar-15.2"
+      - "/run/current-system/sw/bin/gcc-ar-15"
+      - "/run/wrappers/bin/gcc-ar-15"
+      - "/home/kasper/.nix-profile/bin/gcc-ar-15"
+      - "/nix/profile/bin/gcc-ar-15"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar-15"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar-15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-15"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar-15"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar-15"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar-15"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar-15"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar-15"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar-15"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar-15"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar-15"
+      - "/run/current-system/sw/bin/gcc-ar15"
+      - "/run/wrappers/bin/gcc-ar15"
+      - "/home/kasper/.nix-profile/bin/gcc-ar15"
+      - "/nix/profile/bin/gcc-ar15"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar15"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar15"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar15"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar15"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar15"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar15"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar15"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar15"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar15"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar15"
+      - "/run/current-system/sw/bin/gcc-ar"
+      - "/run/wrappers/bin/gcc-ar"
+      - "/home/kasper/.nix-profile/bin/gcc-ar"
+      - "/nix/profile/bin/gcc-ar"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/current-system/sw/bin/gcc-ranlib-15.2"
+      - "/run/wrappers/bin/gcc-ranlib-15.2"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib-15.2"
+      - "/nix/profile/bin/gcc-ranlib-15.2"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib-15.2"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib-15.2"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-15.2"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib-15.2"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib-15.2"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib-15.2"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib-15.2"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib-15.2"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib-15.2"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib-15.2"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib-15.2"
+      - "/run/current-system/sw/bin/gcc-ranlib-15"
+      - "/run/wrappers/bin/gcc-ranlib-15"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib-15"
+      - "/nix/profile/bin/gcc-ranlib-15"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib-15"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib-15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-15"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib-15"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib-15"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib-15"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib-15"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib-15"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib-15"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib-15"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib-15"
+      - "/run/current-system/sw/bin/gcc-ranlib15"
+      - "/run/wrappers/bin/gcc-ranlib15"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib15"
+      - "/nix/profile/bin/gcc-ranlib15"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib15"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib15"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib15"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib15"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib15"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib15"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib15"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib15"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib15"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib15"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib15"
+      - "/run/current-system/sw/bin/gcc-ranlib"
+      - "/run/wrappers/bin/gcc-ranlib"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib"
+      - "/nix/profile/bin/gcc-ranlib"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/run/current-system/sw/bin/cc"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+    found: "/run/current-system/sw/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:130 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      gcc (GCC) 15.2.0
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-"
+      - "gcc-ar-"
+      - "gcc-ar"
+      - "gcc-ar"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/current-system/sw/bin/gcc-ar-"
+      - "/run/wrappers/bin/gcc-ar-"
+      - "/home/kasper/.nix-profile/bin/gcc-ar-"
+      - "/nix/profile/bin/gcc-ar-"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar-"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar-"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar-"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar-"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar-"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar-"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar-"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar-"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar-"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar-"
+      - "/run/current-system/sw/bin/gcc-ar-"
+      - "/run/wrappers/bin/gcc-ar-"
+      - "/home/kasper/.nix-profile/bin/gcc-ar-"
+      - "/nix/profile/bin/gcc-ar-"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar-"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar-"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar-"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar-"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar-"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar-"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar-"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar-"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar-"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar-"
+      - "/run/current-system/sw/bin/gcc-ar"
+      - "/run/wrappers/bin/gcc-ar"
+      - "/home/kasper/.nix-profile/bin/gcc-ar"
+      - "/nix/profile/bin/gcc-ar"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar"
+      - "/run/current-system/sw/bin/gcc-ar"
+      - "/run/wrappers/bin/gcc-ar"
+      - "/home/kasper/.nix-profile/bin/gcc-ar"
+      - "/nix/profile/bin/gcc-ar"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ar"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ar"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ar"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ar"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ar"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ar"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ar"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ar"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ar"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:130 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-"
+      - "gcc-ranlib-"
+      - "gcc-ranlib"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/kasper/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/kasper/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/kasper/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/"
+    searched_directories:
+      - "/run/current-system/sw/bin/gcc-ranlib-"
+      - "/run/wrappers/bin/gcc-ranlib-"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib-"
+      - "/nix/profile/bin/gcc-ranlib-"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib-"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib-"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib-"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib-"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib-"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib-"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib-"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib-"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib-"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib-"
+      - "/run/current-system/sw/bin/gcc-ranlib-"
+      - "/run/wrappers/bin/gcc-ranlib-"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib-"
+      - "/nix/profile/bin/gcc-ranlib-"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib-"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib-"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib-"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib-"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib-"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib-"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib-"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib-"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib-"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib-"
+      - "/run/current-system/sw/bin/gcc-ranlib"
+      - "/run/wrappers/bin/gcc-ranlib"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib"
+      - "/nix/profile/bin/gcc-ranlib"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib"
+      - "/run/current-system/sw/bin/gcc-ranlib"
+      - "/run/wrappers/bin/gcc-ranlib"
+      - "/home/kasper/.nix-profile/bin/gcc-ranlib"
+      - "/nix/profile/bin/gcc-ranlib"
+      - "/home/kasper/.local/state/nix/profile/bin/gcc-ranlib"
+      - "/etc/profiles/per-user/kasper/bin/gcc-ranlib"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib"
+      - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/gcc-ranlib"
+      - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin/gcc-ranlib"
+      - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin/gcc-ranlib"
+      - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin/gcc-ranlib"
+      - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin/gcc-ranlib"
+      - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin/gcc-ranlib"
+      - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin/gcc-ranlib"
+      - "/home/kasper/.config/zsh/plugins/nix-zsh-completions/gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/kasper/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/kasper/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/kasper/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin"
+        - "/nix/store/m0yqmmh44v2ykpr7gd6hp6yrvzpcqbjd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/jx13ah7k2zp0w21r2qncpdji93ylcncl-pciutils-3.14.0/bin"
+        - "/nix/store/vqpm0alli7j5fvqxwrq9rg4csnkwk0j8-pkgconf-wrapper-2.5.1/bin"
+        - "/nix/store/myjlf11fwy8yw3127hxsfyidxz6srg6x-kitty-0.46.2/bin"
+        - "/nix/store/pjcg9z9zj4hqa7y8jjgsx06rc31q6r8s-imagemagick-7.1.2-19/bin"
+        - "/nix/store/whrp41kk2qd790h8xg4v4giw5z0cmxa7-ncurses-6.6-dev/bin"
+        - "/home/kasper/.config/zsh/plugins/nix-zsh-completions"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:130 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-aGnQUv"
+      binary: "/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-aGnQUv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-aGnQUv'
+        
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_5c8ca/fast
+        make[6]: Entering directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-aGnQUv'
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_5c8ca.dir/build.make CMakeFiles/cmTC_5c8ca.dir/build
+        make[7]: Entering directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-aGnQUv'
+        Building C object CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o
+        /run/current-system/sw/bin/cc   -v -o CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/bin/gcc
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../gcc-15.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-61-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5c8ca.dir/'
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/cc1 -quiet -v -idirafter /nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include -idirafter /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5c8ca.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-omit-leaf-frame-pointer -mtune=generic -march=x86-64 -version -fno-omit-frame-pointer -o /tmp/cc6FMLOY.s
+        GNU C23 (GCC) version 15.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version isl-0.20-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../x86_64-unknown-linux-gnu/include"
+        ignoring duplicate directory "/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include"
+        ignoring duplicate directory "/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed
+         /nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include
+        End of search list.
+        Compiler executable checksum: bfc1e2ea9318166f2b7d52f53d1f1faf
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5c8ca.dir/'
+         as -v --64 -o CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o /tmp/cc6FMLOY.s
+        GNU assembler version 2.46 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.46
+        COMPILER_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_5c8ca
+        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c8ca.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/bin/gcc
+        COLLECT_LTO_WRAPPER=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../gcc-15.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-61-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_5c8ca' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib' '-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5c8ca.'
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrFDQCl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5c8ca /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -dynamic-linker=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o
+        collect2 version 15.2.0
+        /nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/ld -plugin /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrFDQCl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5c8ca /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -dynamic-linker=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_5c8ca' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib' '-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5c8ca.'
+        /run/current-system/sw/bin/cc  -v -Wl,-v CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o -o cmTC_5c8ca
+        make[7]: Leaving directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-aGnQUv'
+        make[6]: Leaving directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-aGnQUv'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:130 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+          add: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include]
+          add: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+          add: [/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+        collapse include dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include]
+        collapse include dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+        collapse include dir [/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include] ==> [/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include]
+        implicit include dirs: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed;/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:130 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-aGnQUv']
+        ignore line: []
+        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_5c8ca/fast]
+        ignore line: [make[6]: Entering directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-aGnQUv']
+        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_5c8ca.dir/build.make CMakeFiles/cmTC_5c8ca.dir/build]
+        ignore line: [make[7]: Entering directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-aGnQUv']
+        ignore line: [Building C object CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/run/current-system/sw/bin/cc   -v -o CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/bin/gcc]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-61-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5c8ca.dir/']
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/cc1 -quiet -v -idirafter /nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include -idirafter /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed /run/current-system/sw/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5c8ca.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-omit-leaf-frame-pointer -mtune=generic -march=x86-64 -version -fno-omit-frame-pointer -o /tmp/cc6FMLOY.s]
+        ignore line: [GNU C23 (GCC) version 15.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version isl-0.20-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../x86_64-unknown-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include]
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+        ignore line: [ /nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: bfc1e2ea9318166f2b7d52f53d1f1faf]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5c8ca.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o /tmp/cc6FMLOY.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.46]
+        ignore line: [COMPILER_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_5c8ca]
+        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c8ca.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-61-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_5c8ca' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib' '-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5c8ca.']
+        link line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrFDQCl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5c8ca /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -dynamic-linker=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o]
+          arg [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccrFDQCl.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_5c8ca] ==> ignore
+          arg [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o] ==> obj [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o]
+          arg [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o] ==> obj [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o]
+          arg [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o] ==> obj [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o]
+          arg [-L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib] ==> dir [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib]
+          arg [-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+          arg [-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+          arg [-L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib] ==> dir [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib]
+          arg [-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+          arg [-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..]
+          arg [-dynamic-linker=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o] ==> obj [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o]
+          arg [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o] ==> obj [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/ld -plugin /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrFDQCl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5c8ca /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -dynamic-linker=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_5c8ca.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o]
+        linker tool for 'C': /nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/ld
+        collapse library dir [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib] ==> [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib]
+        collapse library dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+        collapse library dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+        collapse library dir [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib] ==> [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib]
+        collapse library dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+        collapse library dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o;/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o;/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o]
+        implicit dirs: [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0;/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:130 (project)"
+    message: |
+      Running the C compiler's linker: "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:130 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-DOoGEJ"
+      binary: "/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-DOoGEJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-DOoGEJ'
+        
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_91f51/fast
+        make[6]: Entering directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-DOoGEJ'
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_91f51.dir/build.make CMakeFiles/cmTC_91f51.dir/build
+        make[7]: Entering directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-DOoGEJ'
+        Building CXX object CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o
+        /run/current-system/sw/bin/c++   -v -o CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/bin/g++
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../gcc-15.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-61-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91f51.dir/'
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/cc1plus -quiet -v -D_GNU_SOURCE -idirafter /nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include -idirafter /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_91f51.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mno-omit-leaf-frame-pointer -mtune=generic -march=x86-64 -version -fno-omit-frame-pointer -o /tmp/ccRQRq6C.s
+        GNU C++17 (GCC) version 15.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version isl-0.20-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../x86_64-unknown-linux-gnu/include"
+        ignoring duplicate directory "/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include"
+        ignoring duplicate directory "/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0/
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0//x86_64-unknown-linux-gnu
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0//backward
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed
+         /nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include
+        End of search list.
+        Compiler executable checksum: 5fc985edbaa9f1868985e74b17ca364f
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91f51.dir/'
+         as -v --64 -o CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRQRq6C.s
+        GNU assembler version 2.46 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.46
+        COMPILER_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_91f51
+        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f51.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/bin/g++
+        COLLECT_LTO_WRAPPER=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../gcc-15.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-61-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_91f51' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib' '-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_91f51.'
+         /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccv3zabT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_91f51 /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -dynamic-linker=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o
+        collect2 version 15.2.0
+        /nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/ld -plugin /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccv3zabT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_91f51 /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -dynamic-linker=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_91f51' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib' '-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_91f51.'
+        /run/current-system/sw/bin/c++  -v -Wl,-v CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_91f51
+        make[7]: Leaving directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-DOoGEJ'
+        make[6]: Leaving directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-DOoGEJ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:130 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0/]
+          add: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0//x86_64-unknown-linux-gnu]
+          add: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0//backward]
+          add: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+          add: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include]
+          add: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+          add: [/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0/] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0]
+        collapse include dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0//x86_64-unknown-linux-gnu] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0//backward] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0/backward]
+        collapse include dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+        collapse include dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include]
+        collapse include dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+        collapse include dir [/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include] ==> [/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include]
+        implicit include dirs: [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0/x86_64-unknown-linux-gnu;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0/backward;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed;/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:130 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-DOoGEJ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_91f51/fast]
+        ignore line: [make[6]: Entering directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-DOoGEJ']
+        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_91f51.dir/build.make CMakeFiles/cmTC_91f51.dir/build]
+        ignore line: [make[7]: Entering directory '/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/CMakeScratch/TryCompile-DOoGEJ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/run/current-system/sw/bin/c++   -v -o CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/bin/g++]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-61-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91f51.dir/']
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/cc1plus -quiet -v -D_GNU_SOURCE -idirafter /nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include -idirafter /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_91f51.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mno-omit-leaf-frame-pointer -mtune=generic -march=x86-64 -version -fno-omit-frame-pointer -o /tmp/ccRQRq6C.s]
+        ignore line: [GNU C++17 (GCC) version 15.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version isl-0.20-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../x86_64-unknown-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0/]
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0//x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include/c++/15.2.0//backward]
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/include]
+        ignore line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+        ignore line: [ /nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 5fc985edbaa9f1868985e74b17ca364f]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91f51.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRQRq6C.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.46]
+        ignore line: [COMPILER_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_91f51]
+        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f51.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.0 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-61-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.2.0/include/c++/15.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/:/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_91f51' '-B' '/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/' '-idirafter' '/nix/store/fbbw928argckfii0j322346ihmllg7a7-glibc-2.42-61-dev/include' '-idirafter' '/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed' '-B' '/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib' '-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_91f51.']
+        link line: [ /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccv3zabT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_91f51 /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -dynamic-linker=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o]
+          arg [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccv3zabT.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_91f51] ==> ignore
+          arg [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o] ==> obj [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o]
+          arg [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o] ==> obj [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o]
+          arg [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o] ==> obj [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o]
+          arg [-L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib] ==> dir [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib]
+          arg [-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+          arg [-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+          arg [-L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib] ==> dir [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib]
+          arg [-L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+          arg [-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..]
+          arg [-dynamic-linker=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o] ==> obj [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o]
+          arg [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o] ==> obj [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/ld -plugin /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccv3zabT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_91f51 /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib -L/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -dynamic-linker=/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_91f51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o /nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o]
+        linker tool for 'CXX': /nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/ld
+        collapse library dir [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib] ==> [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib]
+        collapse library dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+        collapse library dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+        collapse library dir [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib] ==> [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib]
+        collapse library dir [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib] ==> [/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib]
+        collapse library dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> [/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/Scrt1.o;/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crti.o;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtendS.o;/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib/crtn.o]
+        implicit dirs: [/nix/store/fjkx1l5cnskzrqacf08z7i8z17256w0j-glibc-2.42-61/lib;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib/gcc/x86_64-unknown-linux-gnu/15.2.0;/nix/store/si4q3zks5mn5jhzzyri9hhd3cv789vlm-gcc-15.2.0-lib/lib;/nix/store/sanx9fg8mry8mq92zhlm5qvb83qlxrlx-gcc-15.2.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:130 (project)"
+    message: |
+      Running the CXX compiler's linker: "/nix/store/kfwagnh6i1mysf7vxq679rzh30z9zj3g-binutils-wrapper-2.46/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+...
