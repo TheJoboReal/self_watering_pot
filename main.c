@@ -31,7 +31,6 @@ void on_pwm_wrap() {
     // Set PWM level
     pwm_set_gpio_level(MOTOR_PWM_PIN, fade * fade);
 }
-
 int main() {
 
     // Tell GPIO 15 that PWM is controlling it
