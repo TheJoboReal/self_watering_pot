@@ -3,10 +3,8 @@
 
 #include "defines.h"
 #include "hardware/pwm.h"
-#include "pico/time.h"
-
-#include "hardware/pwm.h"
 #include "pico/stdlib.h"
+#include "pico/time.h"
 
 #define MOTOR_PWM_PIN 15
 #define MOTOR_AIN2 14
@@ -39,25 +37,35 @@ void init_motor() {
 
   pwm_config config = pwm_get_default_config();
 
-  // 20 kHz PWM
+  // 100 kHz PWM
+  // 125 MHz / 1 / 1250 = 100 kHz
   pwm_config_set_clkdiv(&config, 1.0f);
-  pwm_config_set_wrap(&config, 6249);
+  pwm_config_set_wrap(&config, 1249);
 
+  // Initialize and start PWM
   pwm_init(slice, &config, true);
 
   // Initially off
   pwm_set_gpio_level(MOTOR_PWM_PIN, 0);
 }
 
-void run_motor(uint32_t milliseconds) {
-  uint slice = pwm_gpio_to_slice_num(MOTOR_PWM_PIN);
+void run_motor() {
+  uint32_t milliseconds = 500;
 
-  // 100% duty cycle
-  pwm_set_gpio_level(MOTOR_PWM_PIN, 6249);
+  // Set direction
+  gpio_put(MOTOR_AIN1, 1);
+  gpio_put(MOTOR_AIN2, 0);
 
+  // Enable driver
+  gpio_put(MOTOR_STBY, 1);
+
+  // PWM range is 0-1249
+  pwm_set_gpio_level(MOTOR_PWM_PIN, 1200);
+
+  // Run motor
   sleep_ms(milliseconds);
 
-  // Stop motor
+  // Motor OFF
   pwm_set_gpio_level(MOTOR_PWM_PIN, 0);
 }
 

@@ -31,7 +31,7 @@ void init() {
 
   soil.moisture_level = 0;
 
-  // init_pwm();
+  init_motor();
 }
 
 void led_task() {
@@ -43,7 +43,7 @@ void serial_task() { printf("%d\n", (int)(soil.moisture_level * 10)); }
 
 void soil_senor_task() { measure_moisture(&soil); }
 
-void pump_task() { run_motor(500); }
+void pump_task() { run_motor(); }
 
 // Array of tasks for the scheduler and their frequencies in milliseconds
 //
