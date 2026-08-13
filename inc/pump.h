@@ -1,46 +1,64 @@
 #ifndef PUMP_H
 #define PUMP_H
 
-#include "pico/stdlib.h"
-#include <stdio.h>
-#include "pico/time.h"
-#include "hardware/irq.h"
-#include "hardware/pwm.h"
 #include "defines.h"
+#include "hardware/pwm.h"
+#include "pico/time.h"
 
+#include "hardware/pwm.h"
+#include "pico/stdlib.h"
 
-void init_pwm() {
-    // Tell GPIO 15 that PWM is controlling it
-    gpio_set_function(MOTOR_PWM_PIN, GPIO_FUNC_PWM);
+#define MOTOR_PWM_PIN 15
+#define MOTOR_AIN2 14
+#define MOTOR_AIN1 13
+#define MOTOR_STBY 12
 
-    // Find the PWM slice associated with GPIO 15
-    uint slice_num = pwm_gpio_to_slice_num(MOTOR_PWM_PIN);
+void init_motor() {
+  // Direction
+  gpio_init(MOTOR_AIN1);
+  gpio_set_dir(MOTOR_AIN1, GPIO_OUT);
 
-    // Get default PWM configuration
-    pwm_config config = pwm_get_default_config();
+  gpio_init(MOTOR_AIN2);
+  gpio_set_dir(MOTOR_AIN2, GPIO_OUT);
 
-    // PWM clock divider
-    pwm_config_set_clkdiv(&config, 4.f);
+  // Standby
+  gpio_init(MOTOR_STBY);
+  gpio_set_dir(MOTOR_STBY, GPIO_OUT);
 
-    // Start PWM
-    pwm_init(slice_num, &config, true);
+  // Set direction
+  gpio_put(MOTOR_AIN1, 1);
+  gpio_put(MOTOR_AIN2, 0);
 
-    // Motor initially OFF
-    pwm_set_gpio_level(MOTOR_PWM_PIN, 0);
+  // Enable driver
+  gpio_put(MOTOR_STBY, 1);
+
+  // PWM
+  gpio_set_function(MOTOR_PWM_PIN, GPIO_FUNC_PWM);
+
+  uint slice = pwm_gpio_to_slice_num(MOTOR_PWM_PIN);
+
+  pwm_config config = pwm_get_default_config();
+
+  // 20 kHz PWM
+  pwm_config_set_clkdiv(&config, 1.0f);
+  pwm_config_set_wrap(&config, 6249);
+
+  pwm_init(slice, &config, true);
+
+  // Initially off
+  pwm_set_gpio_level(MOTOR_PWM_PIN, 0);
 }
 
-void run_motor() {
-    int milliseconds = 500;
+void run_motor(uint32_t milliseconds) {
+  uint slice = pwm_gpio_to_slice_num(MOTOR_PWM_PIN);
 
-    // 50% duty cycle
-    // With the default 16-bit PWM range, 32768 = ~50%
-    pwm_set_gpio_level(MOTOR_PWM_PIN, 32768);
+  // 100% duty cycle
+  pwm_set_gpio_level(MOTOR_PWM_PIN, 6249);
 
-    // Run motor for requested duration
-    sleep_ms(milliseconds);
+  sleep_ms(milliseconds);
 
-    // Turn motor OFF
-    pwm_set_gpio_level(MOTOR_PWM_PIN, 0);
+  // Stop motor
+  pwm_set_gpio_level(MOTOR_PWM_PIN, 0);
 }
 
-#endif // !PUMP_H
+#endif

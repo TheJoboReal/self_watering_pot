@@ -11,8 +11,8 @@
 #include "hardware/adc.h"
 #include "hardware/gpio.h"
 #include "pico/stdlib.h"
-#include "scheduler.h"
 #include "pump.h"
+#include "scheduler.h"
 #include "tusb.h"
 #include <stdio.h>
 
@@ -31,7 +31,7 @@ void init() {
 
   soil.moisture_level = 0;
 
-  init_pwm();
+  // init_pwm();
 }
 
 void led_task() {
@@ -43,7 +43,7 @@ void serial_task() { printf("%d\n", (int)(soil.moisture_level * 10)); }
 
 void soil_senor_task() { measure_moisture(&soil); }
 
-void pump_task() { run_motor(); }
+void pump_task() { run_motor(500); }
 
 // Array of tasks for the scheduler and their frequencies in milliseconds
 //
