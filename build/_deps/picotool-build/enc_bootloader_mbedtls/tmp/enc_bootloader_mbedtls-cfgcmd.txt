@@ -1,1 +1,0 @@
-cmd='/run/current-system/sw/bin/cmake;-DCMAKE_MAKE_PROGRAM:FILEPATH=/run/current-system/sw/bin/make;-DPICO_SDK_PATH:FILEPATH=/home/kasper/Documents/Projects/pico_watering_pot/build/_deps/pico_sdk-src;-DUSE_PRECOMPILED:BOOL=true;-DUSE_MBEDTLS=1;-DPICO_DEBUG_INFO_IN_RELEASE=OFF;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'
