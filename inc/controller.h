@@ -124,7 +124,7 @@ void controller(struct Soil *soil)
      * Convert to pump PWM
      * -------------------------
      *
-     * Your PWM wrap is 1249.
+     * PWM wrap is 1249.
      *
      * 0.0 = 0
      * 1.0 = 1249
@@ -135,7 +135,7 @@ void controller(struct Soil *soil)
 
     /*
      * -------------------------
-     * Watering duration
+     * Water duration
      * -------------------------
      *
      * 0    -> 0 ms
@@ -148,10 +148,6 @@ void controller(struct Soil *soil)
     int water_time =
         (int)(water_level * 10000.0f);
 
-
-    /*
-     * Store result for run_motor()
-     */
 
     soil->target_pwm = pwm;
     soil->target_water_time = water_time;
