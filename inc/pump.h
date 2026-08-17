@@ -49,8 +49,9 @@ void init_motor() {
   pwm_set_gpio_level(MOTOR_PWM_PIN, 0);
 }
 
-void run_motor() {
-  uint32_t milliseconds = 500;
+void run_motor(struct Soil *soil) {
+  int milliseconds = soil.target_watering_time;
+  int pwm = soil.target_pwm;
 
   // Set direction
   gpio_put(MOTOR_AIN1, 1);
@@ -60,7 +61,7 @@ void run_motor() {
   gpio_put(MOTOR_STBY, 1);
 
   // PWM range is 0-1249
-  pwm_set_gpio_level(MOTOR_PWM_PIN, 1200);
+  pwm_set_gpio_level(MOTOR_PWM_PIN, pwm);
 
   // Run motor
   sleep_ms(milliseconds);
