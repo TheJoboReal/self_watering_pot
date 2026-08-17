@@ -44,7 +44,7 @@ void serial_task() { printf("%d\n", (int)(soil.moisture_level * 10)); }
 
 void soil_senor_task() { measure_moisture(&soil); }
 
-void pump_task() { run_motor(); }
+void pump_task() { run_motor(&soil); }
 
 // Array of tasks for the scheduler and their frequencies in milliseconds
 //

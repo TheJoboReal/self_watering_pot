@@ -154,7 +154,7 @@ void controller(struct Soil *soil)
      */
 
     soil->target_pwm = pwm;
-    soil->target_water_time = watering_time;
+    soil->target_water_time = water_time;
 }
 
 #endif

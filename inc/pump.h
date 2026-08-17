@@ -50,8 +50,8 @@ void init_motor() {
 }
 
 void run_motor(struct Soil *soil) {
-  int milliseconds = soil.target_watering_time;
-  int pwm = soil.target_pwm;
+  int milliseconds = soil->target_water_time;
+  int pwm = soil->target_pwm;
 
   // Set direction
   gpio_put(MOTOR_AIN1, 1);
