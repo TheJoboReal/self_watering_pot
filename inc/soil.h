@@ -3,7 +3,7 @@
 
 // Struct to manage moisture_level and other soil related data
 struct Soil {
-  int moisture_level;
+  float moisture_level;
   int temperature;
 
   int target_pwm;        // Target motor pwm, defined by the controller

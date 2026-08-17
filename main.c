@@ -6,6 +6,7 @@
 
 #include "defines.h"
 #include "soil.h"
+#include "controller.h"
 #include "soil_sensor.h"
 
 #include "hardware/adc.h"

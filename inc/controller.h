@@ -6,7 +6,10 @@
 
 void controller(struct Soil *soil) {
   int temp = soil->temperature;
-  int moist = soil->moisture_level;
+  float moist_volt = soil->moisture_level;
+
+  float moist_per = (3.3 - moist_volt) / (3.3 - 2.35);
+
 }
 
 #endif
