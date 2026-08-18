@@ -4,16 +4,17 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+#include "deep_sleep.h"
 #include "defines.h"
 #include "soil.h"
 #include "soil_sensor.h"
-#include "deep_sleep.h"
 
 #include "hardware/adc.h"
 #include "hardware/gpio.h"
 #include "pico/stdlib.h"
 #include "scheduler.h"
 #include "tusb.h"
+#include <pico/time.h>
 #include <stdio.h>
 
 static bool led_state = false;
@@ -35,7 +36,8 @@ void init() {
 
 void led_task() {
   gpio_put(PICO_DEFAULT_LED_PIN, led_state);
-  led_state = !led_state;
+  led_state = true;
+  sleep_ms(1000);
 }
 
 void serial_task() { printf("%d\n", (int)(soil.moisture_level * 10)); }
@@ -48,8 +50,8 @@ void soil_senor_task() { measure_moisture(&soil); }
 // as the scheduler runs.
 static Task TASKS[] = {
     CREATE_TASK(led_task, 200),
-    CREATE_TASK(soil_senor_task, 500),
-    CREATE_TASK(serial_task, 500),
+    // CREATE_TASK(soil_senor_task, 500),
+    // CREATE_TASK(serial_task, 500),
 };
 
 int main() {

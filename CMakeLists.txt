@@ -21,8 +21,7 @@ target_link_libraries(main
     pico_stdlib
     hardware_pio
     hardware_adc
-    low_power
-    low_power_dormant_gpio
+    pico_low_power
 )
 
 pico_enable_stdio_usb(main 1)
