@@ -14,7 +14,6 @@
 #include "pico/stdlib.h"
 #include "scheduler.h"
 #include "tusb.h"
-#include <pico/time.h>
 #include <stdio.h>
 
 static bool led_state = false;
@@ -36,8 +35,7 @@ void init() {
 
 void led_task() {
   gpio_put(PICO_DEFAULT_LED_PIN, led_state);
-  led_state = true;
-  sleep_ms(1000);
+  led_state = !led_state;
 }
 
 void serial_task() { printf("%d\n", (int)(soil.moisture_level * 10)); }
