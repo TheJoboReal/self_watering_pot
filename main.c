@@ -7,6 +7,7 @@
 #include "defines.h"
 #include "soil.h"
 #include "soil_sensor.h"
+#include "deep_sleep.h"
 
 #include "hardware/adc.h"
 #include "hardware/gpio.h"
@@ -27,6 +28,7 @@ void init() {
 
   gpio_init(PICO_DEFAULT_LED_PIN);
   gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
+  init_deep_sleep();
 
   soil.moisture_level = 0;
 }
@@ -70,5 +72,7 @@ int main() {
   while (true) {
     tud_task();
     scheduler_poll(&scheduler);
+
+    deep_sleep();
   }
 }

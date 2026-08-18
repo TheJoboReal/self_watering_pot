@@ -1,1 +1,2 @@
 #define ADC_PIN 26
+#define LOW_POWER_WAKE_GPIO 15
