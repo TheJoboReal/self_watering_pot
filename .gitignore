@@ -3,3 +3,5 @@
 /.cache/clangd/index
 /build
 /build
+/examples
+/lib/no-OS-FatFS-SD-SPI-RPi-Pico
