@@ -6,11 +6,13 @@
 
 #include "defines.h"
 #include "soil.h"
+#include "controller.h"
 #include "soil_sensor.h"
 
 #include "hardware/adc.h"
 #include "hardware/gpio.h"
 #include "pico/stdlib.h"
+#include "pump.h"
 #include "scheduler.h"
 #include "tusb.h"
 #include <stdio.h>
@@ -29,6 +31,8 @@ void init() {
   gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
 
   soil.moisture_level = 0;
+
+  init_motor();
 }
 
 void led_task() {
@@ -40,6 +44,8 @@ void serial_task() { printf("%d\n", (int)(soil.moisture_level * 10)); }
 
 void soil_senor_task() { measure_moisture(&soil); }
 
+void pump_task() { run_motor(&soil); }
+
 // Array of tasks for the scheduler and their frequencies in milliseconds
 //
 // This can't be `const`, as the task values are modifies
@@ -48,6 +54,7 @@ static Task TASKS[] = {
     CREATE_TASK(led_task, 200),
     CREATE_TASK(soil_senor_task, 500),
     CREATE_TASK(serial_task, 500),
+    CREATE_TASK(pump_task, 500),
 };
 
 int main() {

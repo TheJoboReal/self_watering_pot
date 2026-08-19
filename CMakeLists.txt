@@ -21,6 +21,9 @@ target_link_libraries(main
     pico_stdlib
     hardware_pio
     hardware_adc
+    hardware_pwm
+    hardware_irq
+    pico_time
 )
 
 pico_enable_stdio_usb(main 1)
