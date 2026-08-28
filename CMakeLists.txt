@@ -24,6 +24,8 @@ target_link_libraries(main
     hardware_pwm
     hardware_irq
     pico_time
+    pico_low_power
+    pico_status_led
 )
 
 pico_enable_stdio_usb(main 1)
