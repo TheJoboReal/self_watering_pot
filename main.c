@@ -43,7 +43,10 @@ void led_task() {
 
 void soil_senor_task() { measure_moisture(&soil); }
 
-void pump_task() { run_motor(&soil); }
+void pump_task() { 
+  soil.target_pwm = 1249;
+  soil.target_water_time = 500;
+  run_motor(&soil); }
 
 // Array of tasks for the scheduler and their frequencies in milliseconds
 //
