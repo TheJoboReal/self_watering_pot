@@ -29,7 +29,9 @@ void init() {
   gpio_init(PICO_DEFAULT_LED_PIN);
   gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
 
-  init_deep_sleep();
+  // init deep sleep wake pin
+  hard_assert(status_led_init());
+  gpio_init(LOW_POWER_WAKE_GPIO);
 }
 
 void led_task() {
@@ -47,7 +49,7 @@ void pump_task() {
 }
 
 static Task TASKS[] = {
-    CREATE_TASK(led_task),
+    // CREATE_TASK(led_task),
     CREATE_TASK(soil_senor_task),
     CREATE_TASK(pump_task),
 };
