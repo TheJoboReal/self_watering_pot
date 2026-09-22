@@ -13,6 +13,8 @@ include_directories(
     ./inc
 )
 
+add_subdirectory(lib/pico_fatfs)
+
 add_executable(main
   main.c
 )
@@ -24,6 +26,7 @@ target_link_libraries(main
     hardware_pwm
     hardware_irq
     pico_time
+    pico_fatfs
 )
 
 pico_enable_stdio_usb(main 1)
