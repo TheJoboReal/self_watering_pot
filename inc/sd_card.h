@@ -208,6 +208,7 @@ static inline bool sd_card_write_string(
         return false;
     }
 
+    printf("written to card!");
     return true;
 }
 

@@ -31,13 +31,14 @@ void init() {
 
   gpio_init(PICO_DEFAULT_LED_PIN);
   gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
+  gpio_put(PICO_DEFAULT_LED_PIN, led_state);
 
   soil.moisture_level = 0;
 
   init_motor();
 
   // SD card inin
-  sd_card_init(&sd, "data.csv", "time,temp,hum\n");
+  // sd_card_init(&sd, "data.csv", "time,temp,hum\n");
 
 }
 
@@ -68,6 +69,7 @@ static Task TASKS[] = {
     CREATE_TASK(soil_senor_task, 500),
     CREATE_TASK(serial_task, 500),
     CREATE_TASK(pump_task, 500),
+    // CREATE_TASK(sd_task, 500),
 };
 
 int main() {
