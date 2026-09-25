@@ -9,10 +9,10 @@
 // which is determined by spi_set_baudrate() in pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 /* SPI pin assignment */
-#define PIN_SPI0_MISO_DEFAULT   4   // 0, 4, 16
-#define PIN_SPI0_CS_DEFAULT     5   // 1, 5, 17
-#define PIN_SPI0_SCK_DEFAULT    2   // 2, 6, 18
-#define PIN_SPI0_MOSI_DEFAULT   3   // 3, 7, 19
+#define PIN_SPI0_MISO_DEFAULT   16   // 0, 4, 16
+#define PIN_SPI0_CS_DEFAULT     17   // 1, 5, 17
+#define PIN_SPI0_SCK_DEFAULT    18   // 2, 6, 18
+#define PIN_SPI0_MOSI_DEFAULT   19   // 3, 7, 19
 
 #define PIN_SPI1_MISO_DEFAULT   8   //  8, 12
 #define PIN_SPI1_CS_DEFAULT     9   //  9, 13

@@ -15,10 +15,12 @@
 #include "pump.h"
 #include "scheduler.h"
 #include "tusb.h"
+#include "sd_card.h"
 #include <stdio.h>
 
 static bool led_state = false;
 static struct Soil soil;
+SDCard sd;
 
 void init() {
   adc_init();
@@ -33,6 +35,10 @@ void init() {
   soil.moisture_level = 0;
 
   init_motor();
+
+  // SD card inin
+  sd_card_init(&sd, "data.csv", "time,temp,hum\n");
+
 }
 
 void led_task() {
@@ -45,6 +51,13 @@ void serial_task() { printf("%d\n", (int)(soil.moisture_level * 10)); }
 void soil_senor_task() { measure_moisture(&soil); }
 
 void pump_task() { run_motor(&soil); }
+
+void sd_task() { if(sd_card_mount(&sd)){
+    sd_card_write_string(&sd, "1000,23.5,45.2\n");
+    sd_card_write_string(&sd, "2000,23.7,44.8\n");
+  } 
+  sd_card_unmount(&sd);
+}
 
 // Array of tasks for the scheduler and their frequencies in milliseconds
 //
