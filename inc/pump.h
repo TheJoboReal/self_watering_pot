@@ -6,11 +6,6 @@
 #include "pico/stdlib.h"
 #include "pico/time.h"
 
-#define MOTOR_PWM_PIN 15
-#define MOTOR_AIN2 14
-#define MOTOR_AIN1 13
-#define MOTOR_STBY 12
-
 void init_motor() {
   // Direction
   gpio_init(MOTOR_AIN1);
