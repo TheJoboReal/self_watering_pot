@@ -23,7 +23,10 @@ static struct Soil soil;
 SDCard sd;
 
 void init() {
+  stdio_init_all();
+  tusb_init();
   adc_init();
+
   // Make sure GPIO is high-impedance, no pullups etc
   adc_gpio_init(ADC_PIN);
   // Select ADC input 0 (GPIO26)
@@ -38,7 +41,7 @@ void init() {
   init_motor();
 
   // SD card inin
-  // sd_card_init(&sd, "data.csv", "time,temp,hum\n");
+  sd_card_init(&sd, "data.csv", "time,temp,hum\n");
 
 }
 
@@ -69,12 +72,10 @@ static Task TASKS[] = {
     CREATE_TASK(soil_senor_task, 500),
     CREATE_TASK(serial_task, 500),
     CREATE_TASK(pump_task, 500),
-    // CREATE_TASK(sd_task, 500),
+    CREATE_TASK(sd_task, 500),
 };
 
 int main() {
-  stdio_init_all();
-  tusb_init();
   init();
   sleep_ms(500);
 
