@@ -1693,7 +1693,7 @@
 		(layer "F.Cu")
 		(uuid "a28e0bb2-4400-4d13-bd5c-145f6c87ed5b")
 		(transform
-			(translate 79.885 105.85)
+			(translate 78.885 105.85)
 			(rotate 180)
 			(scale 1 1)
 		)
@@ -1702,7 +1702,7 @@
 		(property "Reference" "J6"
 			(at 4.385 -2.27 360)
 			(layer "F.SilkS")
-			(uuid "a8f8de9b-c04a-43c7-bee7-8cd978338582")
+			(uuid "786c51e9-88cc-48d6-bf29-44550ecb0628")
 			(effects
 				(font
 					(size 1 1)
@@ -1713,7 +1713,7 @@
 		(property "Value" "Conn_01x06"
 			(at 4.385 14.97 360)
 			(layer "F.Fab")
-			(uuid "4cd704c2-0d45-40ab-8ea5-bbdb144add48")
+			(uuid "831b62da-2b01-421d-ab67-db76fe134bf6")
 			(effects
 				(font
 					(size 1 1)
@@ -1725,7 +1725,7 @@
 			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7825619-d396-46cf-b660-6f081f5c9269")
+			(uuid "956bc5b8-b93c-4c13-928b-626e3ff5f0a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,7 +1736,7 @@
 			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f365b0db-ecd1-428c-a4d5-377c3c8aa86a")
+			(uuid "25bae74a-35a1-42c8-9e48-d48826f48fbe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,12 +5343,12 @@
 		(layer "F.Cu")
 		(uuid "eace23a2-4f45-4590-8867-ffd192606f87")
 		(transform
-			(translate 130.725 132)
-			(rotate 0)
+			(translate 131 117)
+			(rotate 180)
 			(scale 1 1)
 		)
 		(property "Reference" "U1"
-			(at 0 2.5 0)
+			(at 0 2.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "68d03701-6e89-419d-98d1-fc44fb28a21e")
@@ -5360,7 +5360,7 @@
 			)
 		)
 		(property "Value" "TB6612FNG"
-			(at 0 4 0)
+			(at 0 4 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "44c84b19-9b02-4d02-afdc-7ff1373b68e0")
@@ -5372,7 +5372,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5385,7 +5385,7 @@
 			)
 		)
 		(property "Description" "Driver IC for Dual DC motor, SSOP-24"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5423,7 +5423,7 @@
 			(uuid "eb98ac90-bc6c-4b96-9a37-9a9df9870378")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 5.5 0)
+			(at 0 5.5 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "5047c444-cd6d-4de8-98d4-522c545f25f6")
@@ -5435,7 +5435,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -4 0)
+			(at -4 0 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5447,7 +5447,7 @@
 			(uuid "17de3883-f017-4de4-90c0-347d1aecbf6f")
 		)
 		(pad "3" thru_hole roundrect
-			(at -4 -2.5)
+			(at -4 -2.5 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5459,7 +5459,7 @@
 			(uuid "3e05f0b5-9faf-49ca-b5f8-7187a2ab8591")
 		)
 		(pad "4" thru_hole roundrect
-			(at -4 -5)
+			(at -4 -5 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5471,7 +5471,7 @@
 			(uuid "64163e8f-4d1c-451d-adb3-26559f358594")
 		)
 		(pad "5" thru_hole roundrect
-			(at -4 -7.5)
+			(at -4 -7.5 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5483,7 +5483,7 @@
 			(uuid "f93fac55-397a-49c9-9d31-d6b989d5e6d9")
 		)
 		(pad "6" thru_hole roundrect
-			(at -4 -10)
+			(at -4 -10 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5495,7 +5495,7 @@
 			(uuid "b0119f94-aac2-49cb-ac00-d11d6d43ff2f")
 		)
 		(pad "7" thru_hole roundrect
-			(at -4 -12.5)
+			(at -4 -12.5 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5507,7 +5507,7 @@
 			(uuid "6dda9e71-8439-42dc-9371-fbbc931fd919")
 		)
 		(pad "8" thru_hole roundrect
-			(at -4 -15)
+			(at -4 -15 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5519,7 +5519,7 @@
 			(uuid "d29ddc1b-1fee-456c-8adc-b97be5d5c955")
 		)
 		(pad "9" thru_hole roundrect
-			(at 4 0)
+			(at 4 0 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5531,7 +5531,7 @@
 			(uuid "b77b4ef9-c6ac-46be-96af-723de39839b6")
 		)
 		(pad "10" thru_hole roundrect
-			(at 4 -2.5)
+			(at 4 -2.5 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5543,7 +5543,7 @@
 			(uuid "4ebda8a0-9cad-4b37-a4a3-2f19b4b4a2d9")
 		)
 		(pad "11" thru_hole roundrect
-			(at 4 -5)
+			(at 4 -5 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5555,7 +5555,7 @@
 			(uuid "aef31a63-46ae-417a-81c9-4528e026c191")
 		)
 		(pad "12" thru_hole roundrect
-			(at 4 -7.5)
+			(at 4 -7.5 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5567,7 +5567,7 @@
 			(uuid "6f9a60ce-fbb9-48b5-a83c-aa23b394cd4a")
 		)
 		(pad "13" thru_hole roundrect
-			(at 4 -10)
+			(at 4 -10 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5579,7 +5579,7 @@
 			(uuid "0f337d19-c432-4110-92f8-1d6aa6c1da28")
 		)
 		(pad "14" thru_hole roundrect
-			(at 4 -12.5)
+			(at 4 -12.5 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5591,7 +5591,7 @@
 			(uuid "96304ca7-c28d-4812-894c-239b291b53fb")
 		)
 		(pad "15" thru_hole roundrect
-			(at 4 -15)
+			(at 4 -15 180)
 			(size 1.27 1.27)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
