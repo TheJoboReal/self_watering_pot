@@ -5994,7 +5994,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "47pF"
 			(at 106.934 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6074,7 +6074,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "47pF"
 			(at 114.554 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6399,7 +6399,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "47pF"
 			(at 99.314 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,7 +6872,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "47pF"
 			(at 103.124 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,7 +7766,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "47pF"
 			(at 110.744 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
