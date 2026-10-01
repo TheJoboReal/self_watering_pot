@@ -4305,6 +4305,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 39.37) (xy 191.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dedbe84-7c19-4a8d-85f9-db51f85aaa94")
+	)
+	(wire
+		(pts
 			(xy 97.79 35.56) (xy 97.79 52.07)
 		)
 		(stroke
@@ -4545,7 +4555,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 125.73) (xy 133.35 130.81)
+			(xy 123.19 140.97) (xy 123.19 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4682,6 +4692,16 @@
 			(type default)
 		)
 		(uuid "7c043ebf-c6cb-416d-824b-16b6912a8f37")
+	)
+	(wire
+		(pts
+			(xy 123.19 146.05) (xy 129.54 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de43a1e-ca72-4bf1-be6f-bb262b0210c2")
 	)
 	(wire
 		(pts
@@ -4975,6 +4995,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 39.37) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7207b67-20d5-4bfc-92c6-27d454c0ce0c")
+	)
+	(wire
+		(pts
 			(xy 29.21 41.91) (xy 40.64 41.91)
 		)
 		(stroke
@@ -5002,6 +5032,16 @@
 			(type default)
 		)
 		(uuid "c2e70e4d-0c04-4247-8be8-e586a2aee93f")
+	)
+	(wire
+		(pts
+			(xy 180.34 36.83) (xy 193.04 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94c051f-d426-4e9c-a67e-1b488b0415f7")
 	)
 	(wire
 		(pts
@@ -5462,6 +5502,16 @@
 			(justify left bottom)
 		)
 		(uuid "83a004f5-4e9e-4112-814c-6f7c8e9c88e1")
+	)
+	(label "SLEEP_WAKE"
+		(at 180.34 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91ea5622-1e87-4bd6-991d-c9d417c950c7")
 	)
 	(label "MTR_AO1"
 		(at 21.59 107.95 0)
@@ -6160,6 +6210,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 198.12 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25de344f-94d6-4ec0-9e2a-906b159f868a")
+		(property "Reference" "J7"
+			(at 199.39 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 199.39 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+			(at 198.12 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 198.12 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca3529b3-76c3-418b-9b20-bc4ece19c691")
+		)
+		(pin "2"
+			(uuid "76237bec-5320-4c97-8a02-67b743ddd5fc")
+		)
+		(instances
+			(project "main_board"
+				(path "/76244187-4a65-419d-aca4-7df495b92d5c"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 170.18 0)
 		(unit 1)
@@ -6347,7 +6479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_lib_footprint:Wemos_battery_shield"
+		(property "Footprint" "custom_lib_footprint:Untitled"
 			(at 241.554 49.276 0)
 			(hide yes)
 			(show_name no)
@@ -6958,6 +7090,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 191.77 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b86d86c-ce8b-49e0-9c05-21fdabd5faa5")
+		(property "Reference" "#PWR016"
+			(at 191.77 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "858bbf59-c2e0-40ff-adf7-3b7fb1b11c02")
+		)
+		(instances
+			(project "main_board"
+				(path "/76244187-4a65-419d-aca4-7df495b92d5c"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 262.89 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -7116,7 +7326,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 133.35 125.73 0)
+		(at 123.19 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7127,7 +7337,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c636bd8-9f18-45a5-a7b9-0a5ffcb39cda")
 		(property "Reference" "#PWR02"
-			(at 133.35 129.54 0)
+			(at 123.19 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7138,7 +7348,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 133.35 120.65 0)
+			(at 123.19 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7148,7 +7358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 125.73 0)
+			(at 123.19 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7159,7 +7369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 125.73 0)
+			(at 123.19 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7170,7 +7380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 133.35 125.73 0)
+			(at 123.19 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
