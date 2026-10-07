@@ -51,8 +51,7 @@
       "conflict_shadows",
       "shapes",
       "board_outline_area",
-      "ly_points",
-      "constraint_shadows"
+      "ly_points"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
