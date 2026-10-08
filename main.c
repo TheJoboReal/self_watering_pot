@@ -14,6 +14,7 @@
 #include "hardware/gpio.h"
 #include "pico/stdlib.h"
 #include "pump.h"
+#include "eink.h"
 #include "scheduler.h"
 #include <stdio.h>
 
