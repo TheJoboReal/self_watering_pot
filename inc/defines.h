@@ -2,7 +2,7 @@
 #define ADC_PIN 26
 
 // Dormant sleep mode
-#define LOW_POWER_WAKE_GPIO 3
+#define LOW_POWER_WAKE_GPIO 19
 #define CLOCK_RST 16
 
 // Pump

@@ -55,7 +55,7 @@ void pump_task() {
 // as the scheduler runs.
 static Task TASKS[] = {
     CREATE_TASK(led_task),
-    CREATE_TASK(soil_senor_task),
+    // CREATE_TASK(soil_senor_task),
     CREATE_TASK(pump_task),
 };
 
