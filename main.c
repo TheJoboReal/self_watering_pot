@@ -34,6 +34,7 @@ void init() {
   // init deep sleep wake pin
   hard_assert(status_led_init());
   gpio_init(LOW_POWER_WAKE_GPIO);
+  initEinkDisplay();
 }
 
 void led_task() {

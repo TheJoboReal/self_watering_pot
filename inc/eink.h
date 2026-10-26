@@ -1,6 +1,7 @@
 #include "../lib/Fonts/fonts.h"
 #include "GUI_Paint.h"
 #include "defines.h"
+#include "soil.h"
 #include <stdlib.h>
 #include <string.h>
 
@@ -10,7 +11,6 @@
 #define ENCODER_COUNTS_PER_STEP 4
 #define PERCENT_PER_STEP 1
 
-static EventReader event_reader_demo = {0};
 static UBYTE *Image = NULL;
 static UWORD Imagesize;
 
@@ -73,8 +73,8 @@ void eink_ui() {
   Paint_DrawString_EN(text_x, text_y + line_spacing, "Moisture at last reading: %s\n", soil.moisture_level,
                       &FONT, WHITE, BLACK);
 
-  Paint_DrawString_EN(text_x, text_y + line_spacing * 2, "Pump ran at: ", &FONT,
-                      WHITE, BLACK);
+  // Paint_DrawString_EN(text_x, text_y + line_spacing * 2, "Pump ran at: ", &FONT,
+  //                     WHITE, BLACK);
 
   display_full_refresh(Paint.Image);
 }
