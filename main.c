@@ -56,10 +56,9 @@ void soil_senor_task() {
 
 void eink_task() { einkUi(&soil); }
 
-void pump_task() { 
-  soil.target_pwm = 1249;
-  soil.target_water_time = 500;
-  run_motor(&soil); }
+void controller_task() {controller(&soil); }
+
+void pump_task() {run_motor(&soil); }
 
 // Array of tasks for the scheduler and their frequencies in milliseconds
 //
@@ -68,6 +67,7 @@ void pump_task() {
 static Task TASKS[] = {
     CREATE_TASK(led_task),
     CREATE_TASK(soil_senor_task),
+    CREATE_TASK(controller_task),
     CREATE_TASK(pump_task),
     CREATE_TASK(eink_task),
   
