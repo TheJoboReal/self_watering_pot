@@ -41,7 +41,11 @@ void led_task() {
   led_state = !led_state;
 }
 
-void soil_senor_task() { measure_moisture(&soil); }
+void soil_senor_task() { 
+  measure_moisture(&soil);
+  printf("Moist: %f", soil.moisture_level);
+}
+
 
 void pump_task() { 
   soil.target_pwm = 1249;
@@ -54,7 +58,7 @@ void pump_task() {
 // as the scheduler runs.
 static Task TASKS[] = {
     CREATE_TASK(led_task),
-    // CREATE_TASK(soil_senor_task),
+    CREATE_TASK(soil_senor_task),
     CREATE_TASK(pump_task),
 };
 
