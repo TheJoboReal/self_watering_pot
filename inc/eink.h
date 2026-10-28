@@ -59,13 +59,18 @@ void einkUi(struct Soil *soil) {
   Paint_SelectImage(Image);
   Paint_Clear(WHITE);
 
-  char buffer[64];
+  char moisture[64];
+  char time[64];
 
-  snprintf(buffer, sizeof(buffer),
+  snprintf(moisture, sizeof(moisture),
       "Moisture at last reading: %d", soil->moisture_level);
+  snprintf(time, sizeof(time),
+      "Time watering at last reading: %d", soil->target_water_time);
 
   Paint_DrawString_EN(text_x, text_y + line_spacing,
-      buffer, &FONT, WHITE, BLACK);
+      moisture, &FONT, WHITE, BLACK);
+  Paint_DrawString_EN(text_x, text_y + line_spacing*2,
+      time, &FONT, WHITE, BLACK);
 
   EPD_2IN9_V2_Init();              // Re-init controller
   EPD_2IN9_V2_Display_Base(Image); // Full refresh
