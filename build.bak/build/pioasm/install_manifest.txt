@@ -1,0 +1,5 @@
+/home/kasper/Documents/Projects/self_watering_pot/build/pioasm-install/pioasm/pioasm
+/home/kasper/Documents/Projects/self_watering_pot/build/pioasm-install/pioasm/pioasmTargets.cmake
+/home/kasper/Documents/Projects/self_watering_pot/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/home/kasper/Documents/Projects/self_watering_pot/build/pioasm-install/pioasm/pioasmConfig.cmake
+/home/kasper/Documents/Projects/self_watering_pot/build/pioasm-install/pioasm/pioasmConfigVersion.cmake
