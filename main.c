@@ -9,12 +9,14 @@
 #include "soil.h"
 #include "controller.h"
 #include "soil_sensor.h"
+#include "pump.h"
+#include "eink.h"
+#include "scheduler.h"
 
 #include "hardware/adc.h"
 #include "hardware/gpio.h"
 #include "pico/stdlib.h"
-#include "pump.h"
-#include "scheduler.h"
+#include "time.h"
 #include <stdio.h>
 
 static struct Soil soil;
@@ -30,6 +32,11 @@ void init() {
   soil.moisture_level = 0;
 
   init_motor();
+
+  sleep_ms(500);
+  initEinkDisplay();
+  sleep_ms(500);
+
   // init deep sleep wake pin
   hard_assert(status_led_init());
   gpio_init(LOW_POWER_WAKE_GPIO);
@@ -41,12 +48,17 @@ void led_task() {
   led_state = !led_state;
 }
 
-void soil_senor_task() { measure_moisture(&soil); }
+void soil_senor_task() { 
+  measure_moisture(&soil);
+  printf("Moist: %f", soil.moisture_level);
+}
 
-void pump_task() { 
-  soil.target_pwm = 1249;
-  soil.target_water_time = 500;
-  run_motor(&soil); }
+
+void eink_task() { einkUi(&soil); }
+
+void controller_task() {controller(&soil); }
+
+void pump_task() {run_motor(&soil); }
 
 // Array of tasks for the scheduler and their frequencies in milliseconds
 //
@@ -54,8 +66,11 @@ void pump_task() {
 // as the scheduler runs.
 static Task TASKS[] = {
     CREATE_TASK(led_task),
-    // CREATE_TASK(soil_senor_task),
+    CREATE_TASK(soil_senor_task),
+    CREATE_TASK(controller_task),
     CREATE_TASK(pump_task),
+    CREATE_TASK(eink_task),
+  
 };
 
 int main() {
