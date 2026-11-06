@@ -23,8 +23,9 @@ cmake --build build
 PCB is designed in FreeCAD and meant to house all the components used in the project. It is recommended to use sockets for the pin modules to enable quick swap of possible damaged components(Lesson learned the hard way..).
 
 ### TODO
-[ ] Implement SD card logging.
-[ ] Replace burnt Eink and make UI interactable with encoder.
+* Implement SD card logging.
+* Replace burnt Eink and make UI interactable with encoder.
+* Add soldering pad for an esp32 to allow choice between pico pi and esp.
 
 
 ### Acknowledgements 
