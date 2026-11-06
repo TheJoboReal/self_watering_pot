@@ -7,9 +7,9 @@ All code is written in C and uses a simple run to complete scheduler.
 It can be compiled with:
 
 ```bash
-mkdir build \
-cd build \
-cmake ..\
+mkdir build 
+cd build 
+cmake ..
 cd ..
 ```
 
