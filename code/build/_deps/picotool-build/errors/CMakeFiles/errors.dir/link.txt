@@ -1,0 +1,2 @@
+/run/current-system/sw/bin/ar qc liberrors.a CMakeFiles/errors.dir/errors.cpp.o
+/run/current-system/sw/bin/ranlib liberrors.a

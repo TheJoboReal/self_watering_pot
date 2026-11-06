@@ -1,0 +1,2 @@
+/run/current-system/sw/bin/arm-none-eabi-ar qc libFonts.a CMakeFiles/Fonts.dir/battery16.c.o CMakeFiles/Fonts.dir/battery32.c.o CMakeFiles/Fonts.dir/font107.c.o CMakeFiles/Fonts.dir/font12.c.o CMakeFiles/Fonts.dir/font16.c.o CMakeFiles/Fonts.dir/font20.c.o CMakeFiles/Fonts.dir/font24.c.o CMakeFiles/Fonts.dir/font8.c.o CMakeFiles/Fonts.dir/font82.c.o CMakeFiles/Fonts.dir/font94.c.o
+/run/current-system/sw/bin/arm-none-eabi-ranlib libFonts.a
